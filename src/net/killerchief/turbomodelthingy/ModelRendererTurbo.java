@@ -9,7 +9,7 @@ public class ModelRendererTurbo extends ModelRenderer {
 		// CUT
 	}
 	
-	public void func_78790_a(float x, float y, float z, int w, int h, int d, float expansion)
+	public void addBox(float x, float y, float z, int w, int h, int d, float expansion)
     {
 		// CUT
     }
