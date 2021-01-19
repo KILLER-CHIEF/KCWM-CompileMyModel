@@ -1,0 +1,12 @@
+# --- Obfuscation Name Pairs ---
+# Can also replace key words.
+# e.g. can be used to comment out code like perfectly valid (KCMM commented out) entry:
+# translateAll(0F, 0F, 0F); - //translateAll(0F, 0F, 0F);
+# '#' is recognised as commenting by KCMM but '//' is commenting recognised by the Java programming language which is still included in this example
+# However in this KCMM version if you double up on performing a de/obfuscation action it will continue to add more '//' to the front of translateAll(...); so watch out on some replace actions.
+
+rotateAngleX - field_78795_f
+rotateAngleY - field_78796_g
+rotateAngleZ - field_78808_h
+setRotationPoint( - func_78793_a(
+addBox( - func_78790_a(

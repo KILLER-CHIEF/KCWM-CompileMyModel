@@ -1,0 +1,7 @@
+# --- Remove List ---
+# When anything in this list is found in the code the whole line that it is on is removed
+
+new Vector3f(
+gunSlideDistance
+animationType
+translateAll(
